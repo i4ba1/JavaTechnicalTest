@@ -20,6 +20,8 @@ public class AppTest
     
     @Test
     public void generateUniqueChar() {
-    	
+    	GenerateUniqueString generateUniqueString = new GenerateUniqueString();
+    	generateUniqueString.writeCharacter(100);
+    	assertTrue("Files created with unique string character", true);
     }
 }
